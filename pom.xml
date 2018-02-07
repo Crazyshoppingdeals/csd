@@ -41,12 +41,13 @@
 			<artifactId>spring-orm</artifactId>
 			<version>${springframework.version}</version>
 		</dependency>
+		
 		<!-- PostgreSQL Driver -->
 		 <dependency>
-            		<groupId>org.postgresql</groupId>
-            		<artifactId>postgresql</artifactId>
-		    	<version>9.4.1207.jre7</version>
-        	</dependency>
+  			<groupId>org.postgresql</groupId>
+ 			<artifactId>postgresql</artifactId>
+  			<version>9.4.1208</version>
+		</dependency>
 
 		<!-- Hibernate -->
 		<dependency>
